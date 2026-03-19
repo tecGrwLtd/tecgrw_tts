@@ -1,0 +1,22 @@
+# Models and checkpoints
+*.pt
+*.pth
+*.bin
+*.zip
+finetuned_deepkin.pt
+xtts_ft_output/
+deepkin_test/
+
+# Audio files
+*.wav
+*.mp3
+test_samples/
+test_samples_base/
+test_samples_finetuned/
+test_samples_multi/
+kinyarwanda_tts_dataset/
+
+# Logs and temporary files
+*.log
+__pycache__/
+.ipynb_checkpoints/
