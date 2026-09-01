@@ -1,0 +1,8 @@
+{
+  "_readme": "R3.12/R3.13 — provenance metadata, keyed by speaker_id (the second column in train_data*.psv). Deliberately NOT added as extra columns on the .psv files themselves: TextAudioSpeakerLoader (deepkin/modules/tts_data.py) unpacks each row positionally, so appending columns there would break training rather than just adding metadata. This sidecar is the safe place for it, and scales fine since dialect/region is a property of the speaker, not of each individual utterance. Existing entries are honestly 'unknown' — nobody recorded this at collection time — rather than a guessed default. Fill in real values here as they become known, and require this for any new recording session going forward.",
+  "0": {
+    "dialect": "",
+    "region": "",
+    "region_source": "unknown"
+  }
+}
